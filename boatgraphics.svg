@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1"
-     inkscape:cx="221"
-     inkscape:cy="371"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="312.5412"
+     inkscape:cy="254.91199"
      inkscape:window-width="1920"
      inkscape:window-height="1012"
      inkscape:window-x="0"
@@ -45,7 +45,7 @@
        height="1.8555094"
        x="-146.34618"
        y="78.148026"
-       inkscape:export-filename="/home/zar/Desktop/Medicine.png"
+       inkscape:export-filename="/home/zar/Desktop/graphics.png"
        inkscape:export-xdpi="77.286171"
        inkscape:export-ydpi="77.286171" />
     <rect
@@ -946,33 +946,36 @@
        width="19.000002"
        height="19"
        x="-106.221"
-       y="38.123001" />
+       y="38.123001"
+       inkscape:export-filename="/home/zar/Desktop/graphics.png"
+       inkscape:export-xdpi="77.286171"
+       inkscape:export-ydpi="77.286171" />
     <path
        style="fill:#945848;fill-opacity:1;stroke:#5c3841;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m -121.84814,98.465781 3.70309,3.232379 13.46174,-10.335553 -3.48254,-2.227694 z"
        id="path7462"
-       inkscape:export-filename="/home/zar/Desktop/Lumber.png"
+       inkscape:export-filename="/home/zar/Desktop/graphics.png"
        inkscape:export-xdpi="77.286171"
        inkscape:export-ydpi="77.286171" />
     <path
        style="fill:#945848;fill-opacity:1;stroke:#5c3841;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m -121.84814,96.988819 3.70309,3.232371 13.46174,-10.335546 -3.48254,-2.227693 z"
        id="path7634"
-       inkscape:export-filename="/home/zar/Desktop/Lumber.png"
+       inkscape:export-filename="/home/zar/Desktop/graphics.png"
        inkscape:export-xdpi="77.286171"
        inkscape:export-ydpi="77.286171" />
     <path
        style="fill:#945848;fill-opacity:1;stroke:#5c3841;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m -121.84814,95.511857 3.70309,3.232375 13.46174,-10.33555 -3.48254,-2.227693 z"
        id="path7636"
-       inkscape:export-filename="/home/zar/Desktop/Lumber.png"
+       inkscape:export-filename="/home/zar/Desktop/graphics.png"
        inkscape:export-xdpi="77.286171"
        inkscape:export-ydpi="77.286171" />
     <path
        style="fill:#945848;fill-opacity:1;stroke:#5c3841;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m -121.84814,94.034895 3.70309,3.232375 13.46174,-10.33555 -3.48254,-2.227693 z"
        id="path7638"
-       inkscape:export-filename="/home/zar/Desktop/Lumber.png"
+       inkscape:export-filename="/home/zar/Desktop/graphics.png"
        inkscape:export-xdpi="77.286171"
        inkscape:export-ydpi="77.286171" />
     <path
@@ -980,35 +983,35 @@
        d="m -88.998421,89.733339 c 0.114225,-1.01884 -0.383935,-3.233694 0.65826,-3.999309 1.364006,-1.002024 2.228126,1.346105 3.236935,1.56739 1.398985,0.30687 3.626277,-0.825602 4.816582,-0.06612 1.027,0.655278 0.274462,2.308865 0.986934,3.097843 8.300418,9.191738 -6.857765,10.898217 -12.082065,6.494977 -0.205057,-0.172834 -1.335322,-1.661968 -1.868709,-4.545535 1.13224,-4.262772 3.819412,-1.887043 4.252063,-2.549242 z"
        id="path7673"
        sodipodi:nodetypes="cssssscc"
-       inkscape:export-filename="/home/zar/Desktop/Ore.png"
+       inkscape:export-filename="/home/zar/Desktop/graphics.png"
        inkscape:export-xdpi="77.286171"
        inkscape:export-ydpi="77.286171" />
     <path
        style="fill:none;stroke:#bd515a;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m -85.569648,90.31045 c 0.737944,0.34651 1.258163,1.03367 1.470073,1.761012"
        id="path8587"
-       inkscape:export-filename="/home/zar/Desktop/Ore.png"
+       inkscape:export-filename="/home/zar/Desktop/graphics.png"
        inkscape:export-xdpi="77.286171"
        inkscape:export-ydpi="77.286171" />
     <path
        style="fill:none;stroke:#bd515a;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m -89.031848,94.387355 c -0.01852,0.750965 -0.31649,1.774245 0.649493,1.925567"
        id="path8589"
-       inkscape:export-filename="/home/zar/Desktop/Ore.png"
+       inkscape:export-filename="/home/zar/Desktop/graphics.png"
        inkscape:export-xdpi="77.286171"
        inkscape:export-ydpi="77.286171" />
     <path
        style="fill:none;stroke:#bd515a;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m -81.163038,95.778419 c -1.103078,0.07295 -1.408116,-0.819026 -1.209622,-1.302301"
        id="path8591"
-       inkscape:export-filename="/home/zar/Desktop/Ore.png"
+       inkscape:export-filename="/home/zar/Desktop/graphics.png"
        inkscape:export-xdpi="77.286171"
        inkscape:export-ydpi="77.286171" />
     <g
        id="g8881"
        transform="matrix(0.55715121,0.55709848,-0.55715121,0.55709848,30.869419,82.047459)"
        style="stroke-width:1.26921"
-       inkscape:export-filename="/home/zar/Desktop/Tools.png"
+       inkscape:export-filename="/home/zar/Desktop/graphics.png"
        inkscape:export-xdpi="77.286171"
        inkscape:export-ydpi="77.286171">
       <rect
@@ -1033,7 +1036,7 @@
        height="14.05321"
        x="-148.18564"
        y="80.611595"
-       inkscape:export-filename="/home/zar/Desktop/Medicine.png"
+       inkscape:export-filename="/home/zar/Desktop/graphics.png"
        inkscape:export-xdpi="77.286171"
        inkscape:export-ydpi="77.286171" />
     <path
@@ -1041,7 +1044,7 @@
        d="m -179.59275,81.085171 c 2.38459,-7.162916 4.92553,0.885016 6.95401,0.885016 1.52424,0 4.12745,-1.842183 5.48142,-1.270324 3.9679,1.675886 0.24731,7.41061 -2.09502,8.636615 -2.42572,1.269654 -6.276,1.510641 -8.24437,-0.465874 -2.09908,-2.107753 -3.15437,-5.522587 -2.09604,-7.785433 z"
        id="path9542"
        sodipodi:nodetypes="cssssc"
-       inkscape:export-filename="/home/zar/Desktop/Food.png"
+       inkscape:export-filename="/home/zar/Desktop/graphics.png"
        inkscape:export-xdpi="77.286171"
        inkscape:export-ydpi="77.286171" />
     <path
@@ -1049,7 +1052,7 @@
        d="m -172.54784,81.782175 c -1.87823,-4.048864 -1.67318,-2.598124 -1.46195,-4.003478 0.28128,-1.871403 3.42714,-4.517996 3.42714,-4.517996 0,0 1.13754,3.56759 0.65351,5.26982 -0.38104,1.340037 -2.6187,3.251654 -2.6187,3.251654 z"
        id="path9657"
        sodipodi:nodetypes="cscsc"
-       inkscape:export-filename="/home/zar/Desktop/Food.png"
+       inkscape:export-filename="/home/zar/Desktop/graphics.png"
        inkscape:export-xdpi="77.286171"
        inkscape:export-ydpi="77.286171" />
     <path
@@ -1057,7 +1060,7 @@
        d="m -158.38601,52.161312 c 0,0 -4.47862,3.022641 -4.61125,5.533003 -0.13264,2.510361 4.34492,4.491358 4.37366,6.545062 0.0287,2.053704 -2.36546,3.763985 -2.36546,3.763985"
        id="path10017"
        sodipodi:nodetypes="czzc"
-       inkscape:export-filename="/home/zar/Desktop/Herbs.png"
+       inkscape:export-filename="/home/zar/Desktop/graphics.png"
        inkscape:export-xdpi="77.286171"
        inkscape:export-ydpi="77.286171" />
     <path
@@ -1065,7 +1068,7 @@
        d="m -158.75772,63.198763 c -0.0148,-3.960889 -0.38626,-2.715008 0.30355,-3.770086 0.91857,-1.404968 4.43018,-2.373953 4.43018,-2.373953 0,0 -0.40353,3.298401 -1.42277,4.491838 -0.80237,0.939503 -3.31096,1.652201 -3.31096,1.652201 z"
        id="path10234"
        sodipodi:nodetypes="cscsc"
-       inkscape:export-filename="/home/zar/Desktop/Herbs.png"
+       inkscape:export-filename="/home/zar/Desktop/graphics.png"
        inkscape:export-xdpi="77.286171"
        inkscape:export-ydpi="77.286171" />
     <path
@@ -1073,7 +1076,7 @@
        d="m -160.94629,67.186795 c -3.74267,-1.279002 -2.68822,-0.520606 -3.4587,-1.518106 -1.02598,-1.328295 -0.79405,-4.969227 -0.79405,-4.969227 0,0 2.98093,1.458789 3.77443,2.813345 0.62467,1.066336 0.47832,3.673988 0.47832,3.673988 z"
        id="path10236"
        sodipodi:nodetypes="cscsc"
-       inkscape:export-filename="/home/zar/Desktop/Herbs.png"
+       inkscape:export-filename="/home/zar/Desktop/graphics.png"
        inkscape:export-xdpi="77.286171"
        inkscape:export-ydpi="77.286171" />
     <path
@@ -1081,7 +1084,7 @@
        d="m -163.60259,57.781082 c -3.74267,-1.279003 -2.68822,-0.520606 -3.4587,-1.518107 -1.02598,-1.328294 -0.79405,-4.969227 -0.79405,-4.969227 0,0 2.98093,1.458789 3.77443,2.813346 0.62467,1.066335 0.47832,3.673988 0.47832,3.673988 z"
        id="path10238"
        sodipodi:nodetypes="cscsc"
-       inkscape:export-filename="/home/zar/Desktop/Herbs.png"
+       inkscape:export-filename="/home/zar/Desktop/graphics.png"
        inkscape:export-xdpi="77.286171"
        inkscape:export-ydpi="77.286171" />
     <ellipse
@@ -1091,14 +1094,14 @@
        cy="56.149654"
        rx="1.770182"
        ry="1.7730497"
-       inkscape:export-filename="/home/zar/Desktop/Herbs.png"
+       inkscape:export-filename="/home/zar/Desktop/graphics.png"
        inkscape:export-xdpi="77.286171"
        inkscape:export-ydpi="77.286171" />
     <g
        id="g11104"
        transform="matrix(0.5761459,0,0,0.57292949,-58.23163,25.902966)"
        style="stroke-width:1.74054"
-       inkscape:export-filename="/home/zar/Desktop/Artefacts.png"
+       inkscape:export-filename="/home/zar/Desktop/graphics.png"
        inkscape:export-xdpi="77.286171"
        inkscape:export-ydpi="77.286171">
       <circle
@@ -1131,5 +1134,23 @@
        inkscape:export-filename="/home/zar/Desktop/graphics.png"
        inkscape:export-xdpi="77.286171"
        inkscape:export-ydpi="77.286171" />
+    <path
+       id="path1293"
+       style="fill:#4884d4;fill-opacity:1;stroke:#7cd8eb;stroke-width:1.19261;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 107.09253,66.502917 a 13.529971,4.3196485 0 0 0 -13.336577,-3.60672 13.529971,4.3196485 0 0 0 -13.333085,3.599835 13.529971,4.3196485 0 0 0 13.333085,3.599974 13.529971,4.3196485 0 0 0 13.336577,-3.593089 z"
+       inkscape:export-filename="/home/zar/Desktop/graphics.png"
+       inkscape:export-xdpi="77.286171"
+       inkscape:export-ydpi="77.286171" />
+    <ellipse
+       style="fill:#4884d4;fill-opacity:1;stroke:#7cd8eb;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="ellipse1295"
+       cx="66.496101"
+       cy="-97.58474"
+       rx="1.323842"
+       ry="1.3245946"
+       inkscape:export-filename="/home/zar/Desktop/graphics.png"
+       inkscape:export-xdpi="77.286171"
+       inkscape:export-ydpi="77.286171"
+       transform="rotate(90)" />
   </g>
 </svg>

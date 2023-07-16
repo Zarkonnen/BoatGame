@@ -39,6 +39,7 @@
         {
             "name": "Krakkagar",
             "desc": "People used to live here. Now it belongs to the Heptopolis navy.",
+            "ship": "Steam Pinnace",
             "goods": [["Food", 12], ["Tools", 18]],
             "shape": [[1437,-197],[1495,-71],[1543,-43],[1621,-125],[1501,-229]]
         },
@@ -75,12 +76,13 @@
             "name": "Melliflox",
             "desc": "The factory owner stays well away from the smoke stacks.",
             "goods": [["Food", 10], ["Ore", 10], ["Tools", 8]],
-            "ship": "Steam Pinnace",
+            "ship": "Submarine",
             "shape": [[-1382,368],[-1182,438],[-1148,350],[-1350,268]]
         },
         {
             "name": "The Pit",
             "desc": "Daily, people descend to mine ore. Daily, people do not return.",
+            "ship": "Steam Pinnace",
             "goods": [["Food", 10], ["Lumber", 10], ["Ore", 3], ["Tools", 12]],
             "shape": [[-2080,-398],[-2042,-306],[-1986,-260],[-1902,-278],[-1978,-402]]
         },

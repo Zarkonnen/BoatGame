@@ -132,6 +132,19 @@ var shipType = {
         cargoCapacity: 5,
         flying: true
     },
+    Submarine: {
+        img: [907,174,85,27],
+        cost: 400,
+        motorSpeed: 0.09,
+        turnSpeed: 0.003,
+        windDrift: 0,
+        sailSpeed: 0,
+        maxTackStrength: 0,
+        bestTackAngle: 0,
+        maxTackAngle: 0,
+        cargoCapacity: 4,
+        stealth: true
+    },
 };
 
 var map = {};
@@ -308,13 +321,13 @@ function tick(ms) {
     c.scale(scale, scale);
     map.things.forEach(t => {
         if (t[0] == "lighthouse" && Math.abs(t[1] - playerShip.x) < 1500 && Math.abs(t[2] - playerShip.y) < 1100) {
-            var angle = t[1] + map.time * 0.0002;
+            var angle = t[1] + map.time * 0.0004;
             c.fillStyle = "#ffe88c";
             c.beginPath();
             c.moveTo(t[1] + 16.5 + scrollX, t[2] + 16.5 + scrollY);
             c.arc(t[1] + 16.5 + scrollX, t[2] + 16.5 + scrollY, 500, angle, angle + Math.PI / 5);
             c.fill();
-            if (Math.sqrt((t[1] + 16.5 - playerShip.x) * (t[1] + 16.5 - playerShip.x) + (t[2] + 16.5 - playerShip.y) * (t[2] + 16.5 - playerShip.y)) < 500) {
+            if (!shipType[playerShip.type].stealth && Math.sqrt((t[1] + 16.5 - playerShip.x) * (t[1] + 16.5 - playerShip.x) + (t[2] + 16.5 - playerShip.y) * (t[2] + 16.5 - playerShip.y)) < 500) {
                 var playerAngle = (Math.atan2(playerShip.y - 16.5 - t[2], playerShip.x - 16.5 - t[1]) + Math.PI * 2) % (Math.PI * 2);
                 var obsAngle = (angle + Math.PI / 10) % (Math.PI * 2);
                 var angleDiff = Math.min(Math.abs(playerAngle - obsAngle), Math.PI * 2 - Math.abs(playerAngle - obsAngle));
