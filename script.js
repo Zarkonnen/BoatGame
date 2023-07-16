@@ -119,6 +119,19 @@ var shipType = {
         maxTackAngle: 0,
         cargoCapacity: 7
     },
+    Zeppelin: {
+        img: [862,272,114,47],
+        cost: 400,
+        motorSpeed: 0.13,
+        turnSpeed: 0.0016,
+        windDrift: 0.1,
+        sailSpeed: 0,
+        maxTackStrength: 0,
+        bestTackAngle: 0,
+        maxTackAngle: 0,
+        cargoCapacity: 5,
+        flying: true
+    },
 };
 
 var map = {};
@@ -442,7 +455,7 @@ function tick(ms) {
             playerShip.x += xWind(playerShip.x, playerShip.y) * shipType[playerShip.type].windDrift * ms;
             playerShip.y += yWind(playerShip.x, playerShip.y) * shipType[playerShip.type].windDrift * ms;
         }
-        if (map.collision.some(p => {
+        if (!shipType[playerShip.type].flying && map.collision.some(p => {
             return inside(playerShip.x, playerShip.y, p);
         })) {
             playerShip.x = oldX;

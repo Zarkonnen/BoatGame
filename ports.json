@@ -12,7 +12,7 @@
             "name": "Ul Qoma",
             "desc": "A rising power, eyeing Heptopolis in envy.",
             "goods": [["Lumber", 8], ["Ore", 10], ["Tools", 10], ["Drugs", 250]],
-            "ship": "Steam Pinnace",
+            "ship": "Zeppelin",
             "shape": [[-123,-1510],[29,-1412],[-35,-1356],[-167,-1452]]
         },
         {
