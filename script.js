@@ -147,7 +147,7 @@ var shipType = {
     },
 };
 
-var map = {};
+
 
 function ajax(file, callback) {
 	jQuery.ajax({
@@ -156,7 +156,6 @@ function ajax(file, callback) {
 	});
 }
 
-var ready = false;
 var started = false;
 var edit = false;
 var collisionEdit = false;
@@ -169,28 +168,23 @@ var playerShip = null;
 var victory = false;
 var goodsConfiscatedTimeout = 0;
 
-ajax("map.json", function(data) {
-    map = data;
-    map.ships = [
-        {
-            type: "Brig",
-            x: 50,
-            y: 70,
-            angle: 0,
-            cargo: ["Lumber"],
-            money: 12
-        }
-    ];
-    map.time = 0;
-    if (!map.collision) {
-        map.collision = [];
+var map = mapData;
+map.ports = portsData;
+map.ships = [
+    {
+        type: "Brig",
+        x: 50,
+        y: 70,
+        angle: 0,
+        cargo: ["Lumber"],
+        money: 12
     }
-    playerShip = map.ships[0];
-    ajax("ports.json", function(d2) {
-        map.ports = d2.ports;
-        ready = true;
-    })
-});
+];
+map.time = 0;
+if (!map.collision) {
+    map.collision = [];
+}
+playerShip = map.ships[0];
 
 function inside(x, y, vs) {
     // ray-casting algorithm based on
@@ -266,7 +260,6 @@ function tick(ms) {
     
     c.fillStyle = "#4884d4";
     c.fillRect(0, 0, canvas.width, canvas.height);
-    if (!ready) { return; }
     
     if (!started) {
         if (click) {
@@ -331,7 +324,7 @@ function tick(ms) {
                 var playerAngle = (Math.atan2(playerShip.y - 16.5 - t[2], playerShip.x - 16.5 - t[1]) + Math.PI * 2) % (Math.PI * 2);
                 var obsAngle = (angle + Math.PI / 10) % (Math.PI * 2);
                 var angleDiff = Math.min(Math.abs(playerAngle - obsAngle), Math.PI * 2 - Math.abs(playerAngle - obsAngle));
-                if (angleDiff < Math.PI / 10 && playerShip.cargo.indexOf("Drugs") != -1) {
+                if (angleDiff < Math.PI / 10 && playerShip.cargo.includes("Drugs")) {
                     goodsConfiscatedTimeout = 5000;
                     sTake.play();
                     playerShip.cargo = playerShip.cargo.filter(o => { return o != "Drugs"; });
@@ -362,7 +355,7 @@ function tick(ms) {
             var ty = pt[1] + scrollY + 60;
             var keyI = 1;
             if (p.unlock) {
-                var unlockable = playerShip.cargo.indexOf(p.unlock) != -1;
+                var unlockable = playerShip.cargo.includes(p.unlock);
                 c.fillStyle = unlockable ? "#f2f2f0" : "#b9b5c3";
                 c.fillText(keyI + ": " + p.unlockDesc + " with 1 " + p.unlock, tx, ty);
                 if (unlockable && pressed("" + keyI)) {
@@ -384,7 +377,7 @@ function tick(ms) {
                     }
                     ty += 30;
                     keyI++;
-                    var sellable = playerShip.cargo.indexOf(good[0]) != -1;
+                    var sellable = playerShip.cargo.includes(good[0]);
                     c.fillStyle = sellable ? "#f2f2f0" : "#b9b5c3";
                     c.fillText(keyI + ": Sell " + good[0] + " for $" + good[1], tx, ty);
                     if (sellable && pressed("" + keyI)) {
